@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "Traveling in Taipei";
+"VC_NAVIGATION_INFO_TITLE" = "Source";
+"VC_TABLEVIEW_SECTION_NEWS" = "Latest News";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "Recreational Attractions";
+"LANG_SELECT_LANGUAGE" = "Select language";
+"ATTRACTION_OPEN_TIME" = "Opening Hours";
+"ATTRACTION_ADDRESS" = "Address";
+"ATTRACTION_TELEPHONE" = "Contact phone number";
+"ATTRACTION_TELPHONE" = "Website";

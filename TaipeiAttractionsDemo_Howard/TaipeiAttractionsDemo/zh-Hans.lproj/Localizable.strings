@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "悠游台北";
+"VC_NAVIGATION_INFO_TITLE" = "资料来源";
+"VC_TABLEVIEW_SECTION_NEWS" = "最新消息";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "游憩景点";
+"LANG_SELECT_LANGUAGE" = "选择语言";
+"ATTRACTION_OPEN_TIME" = "营业时间";
+"ATTRACTION_ADDRESS" = "地址";
+"ATTRACTION_TELEPHONE" = "联络电话";
+"ATTRACTION_TELPHONE" = "网址";

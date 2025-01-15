@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "타이베이 여행";
+"VC_NAVIGATION_INFO_TITLE" = "소스";
+"VC_TABLEVIEW_SECTION_NEWS" = "최신 뉴스";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "레크리에이션 명소";
+"LANG_SELECT_LANGUAGE" = "언어 선택";
+"ATTRACTION_OPEN_TIME" = "영업 시간";
+"ATTRACTION_ADDRESS" = "주소";
+"ATTRACTION_TELEPHONE" = "연락처 전화번호";
+"ATTRACTION_TELPHONE" = "웹사이트";

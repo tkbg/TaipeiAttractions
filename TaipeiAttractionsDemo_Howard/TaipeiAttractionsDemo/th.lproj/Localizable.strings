@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "การเดินทางในไทเป";
+"VC_NAVIGATION_INFO_TITLE" = "แหล่งที่มา";
+"VC_TABLEVIEW_SECTION_NEWS" = "ข่าวสารล่าสุด";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "สถานที่ท่องเที่ยวเพื่อการพักผ่อนหย่อนใจ";
+"LANG_SELECT_LANGUAGE" = "เลือกภาษา";
+"ATTRACTION_OPEN_TIME" = "เวลาทำการ";
+"ATTRACTION_ADDRESS" = "ที่อยู่";
+"ATTRACTION_TELEPHONE" = "หมายเลขโทรศัพท์ติดต่อ";
+"ATTRACTION_TELPHONE" = "เว็บไซต์";

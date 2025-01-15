@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "台北を旅する";
+"VC_NAVIGATION_INFO_TITLE" = "ソース";
+"VC_TABLEVIEW_SECTION_NEWS" = "最新ニュース";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "レクリエーションアトラクション";
+"LANG_SELECT_LANGUAGE" = "言語を選択";
+"ATTRACTION_OPEN_TIME" = "営業時間";
+"ATTRACTION_ADDRESS" = "住所";
+"ATTRACTION_TELEPHONE" = "連絡先電話番号";
+"ATTRACTION_TELPHONE" = "ウェブサイト";

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TaipeiAttractionsDemo
+
+  Created by HowardHung on 2025/1/10.
+  
+*/
+"VC_NAVIGATION_HOME_TITLE" = "Du lịch ở Đài Bắc";
+"VC_NAVIGATION_INFO_TITLE" = "Nguồn";
+"VC_TABLEVIEW_SECTION_NEWS" = "Tin tức mới nhất";
+"VC_TABLEVIEW_SECTION_ATTRACTION" = "Điểm tham quan giải trí";
+"LANG_SELECT_LANGUAGE" = "Chọn ngôn ngữ";
+"ATTRACTION_OPEN_TIME" = "Giờ mở cửa";
+"ATTRACTION_ADDRESS" = "Địa chỉ";
+"ATTRACTION_TELEPHONE" = "Số điện thoại liên hệ";
+"ATTRACTION_TELPHONE" = "Trang web";

@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40CB36F2D2E2ABC007169FD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D40CB36E2D2E2ABC007169FD /* Alamofire */; };
+		D4F2003E2D30328200339188 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = D4F2003D2D30328200339188 /* ProgressHUD */; };
+		D4F200412D3032D200339188 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4F200402D3032D200339188 /* SDWebImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49846012D2D712000806A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49845E22D2D711E00806A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49845E92D2D711E00806A10;
+			remoteInfo = TaipeiAttractionsDemo;
+		};
+		D498460B2D2D712000806A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49845E22D2D711E00806A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49845E92D2D711E00806A10;
+			remoteInfo = TaipeiAttractionsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D49845EA2D2D711E00806A10 /* TaipeiAttractionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiAttractionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49846002D2D712000806A10 /* TaipeiAttractionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaipeiAttractionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D498460A2D2D712000806A10 /* TaipeiAttractionsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaipeiAttractionsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D49846122D2D712000806A10 /* Exceptions for "TaipeiAttractionsDemo" folder in "TaipeiAttractionsDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D49845E92D2D711E00806A10 /* TaipeiAttractionsDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D49845EC2D2D711E00806A10 /* TaipeiAttractionsDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D49846122D2D712000806A10 /* Exceptions for "TaipeiAttractionsDemo" folder in "TaipeiAttractionsDemo" target */,
+			);
+			path = TaipeiAttractionsDemo;
+			sourceTree = "<group>";
+		};
+		D49846032D2D712000806A10 /* TaipeiAttractionsDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaipeiAttractionsDemoTests;
+			sourceTree = "<group>";
+		};
+		D498460D2D2D712000806A10 /* TaipeiAttractionsDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaipeiAttractionsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49845E72D2D711E00806A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F200412D3032D200339188 /* SDWebImage in Frameworks */,
+				D40CB36F2D2E2ABC007169FD /* Alamofire in Frameworks */,
+				D4F2003E2D30328200339188 /* ProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49845FD2D2D712000806A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49846072D2D712000806A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D49845E12D2D711E00806A10 = {
+			isa = PBXGroup;
+			children = (
+				D49845EC2D2D711E00806A10 /* TaipeiAttractionsDemo */,
+				D49846032D2D712000806A10 /* TaipeiAttractionsDemoTests */,
+				D498460D2D2D712000806A10 /* TaipeiAttractionsDemoUITests */,
+				D49845EB2D2D711E00806A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49845EB2D2D711E00806A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49845EA2D2D711E00806A10 /* TaipeiAttractionsDemo.app */,
+				D49846002D2D712000806A10 /* TaipeiAttractionsDemoTests.xctest */,
+				D498460A2D2D712000806A10 /* TaipeiAttractionsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49845E92D2D711E00806A10 /* TaipeiAttractionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49846132D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemo" */;
+			buildPhases = (
+				D49845E62D2D711E00806A10 /* Sources */,
+				D49845E72D2D711E00806A10 /* Frameworks */,
+				D49845E82D2D711E00806A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D49845EC2D2D711E00806A10 /* TaipeiAttractionsDemo */,
+			);
+			name = TaipeiAttractionsDemo;
+			packageProductDependencies = (
+				D40CB36E2D2E2ABC007169FD /* Alamofire */,
+				D4F2003D2D30328200339188 /* ProgressHUD */,
+				D4F200402D3032D200339188 /* SDWebImage */,
+			);
+			productName = TaipeiAttractionsDemo;
+			productReference = D49845EA2D2D711E00806A10 /* TaipeiAttractionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49845FF2D2D712000806A10 /* TaipeiAttractionsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49846182D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemoTests" */;
+			buildPhases = (
+				D49845FC2D2D712000806A10 /* Sources */,
+				D49845FD2D2D712000806A10 /* Frameworks */,
+				D49845FE2D2D712000806A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49846022D2D712000806A10 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D49846032D2D712000806A10 /* TaipeiAttractionsDemoTests */,
+			);
+			name = TaipeiAttractionsDemoTests;
+			packageProductDependencies = (
+			);
+			productName = TaipeiAttractionsDemoTests;
+			productReference = D49846002D2D712000806A10 /* TaipeiAttractionsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D49846092D2D712000806A10 /* TaipeiAttractionsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D498461B2D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemoUITests" */;
+			buildPhases = (
+				D49846062D2D712000806A10 /* Sources */,
+				D49846072D2D712000806A10 /* Frameworks */,
+				D49846082D2D712000806A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D498460C2D2D712000806A10 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D498460D2D2D712000806A10 /* TaipeiAttractionsDemoUITests */,
+			);
+			name = TaipeiAttractionsDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = TaipeiAttractionsDemoUITests;
+			productReference = D498460A2D2D712000806A10 /* TaipeiAttractionsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49845E22D2D711E00806A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D49845E92D2D711E00806A10 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D49845FF2D2D712000806A10 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D49845E92D2D711E00806A10;
+					};
+					D49846092D2D712000806A10 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D49845E92D2D711E00806A10;
+					};
+				};
+			};
+			buildConfigurationList = D49845E52D2D711E00806A10 /* Build configuration list for PBXProject "TaipeiAttractionsDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				es,
+				ko,
+				th,
+				id,
+				vi,
+			);
+			mainGroup = D49845E12D2D711E00806A10;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D40CB36D2D2E2ABC007169FD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D4F2003C2D30328200339188 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				D4F2003F2D3032D200339188 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D49845EB2D2D711E00806A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49845E92D2D711E00806A10 /* TaipeiAttractionsDemo */,
+				D49845FF2D2D712000806A10 /* TaipeiAttractionsDemoTests */,
+				D49846092D2D712000806A10 /* TaipeiAttractionsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49845E82D2D711E00806A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49845FE2D2D712000806A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49846082D2D712000806A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49845E62D2D711E00806A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49845FC2D2D712000806A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49846062D2D712000806A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49846022D2D712000806A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49845E92D2D711E00806A10 /* TaipeiAttractionsDemo */;
+			targetProxy = D49846012D2D712000806A10 /* PBXContainerItemProxy */;
+		};
+		D498460C2D2D712000806A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49845E92D2D711E00806A10 /* TaipeiAttractionsDemo */;
+			targetProxy = D498460B2D2D712000806A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D49846142D2D712000806A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaipeiAttractionsDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D49846152D2D712000806A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaipeiAttractionsDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D49846162D2D712000806A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D49846172D2D712000806A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49846192D2D712000806A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaipeiAttractionsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaipeiAttractionsDemo";
+			};
+			name = Debug;
+		};
+		D498461A2D2D712000806A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaipeiAttractionsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaipeiAttractionsDemo";
+			};
+			name = Release;
+		};
+		D498461C2D2D712000806A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TaipeiAttractionsDemo;
+			};
+			name = Debug;
+		};
+		D498461D2D2D712000806A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.wss.TaipeiAttractionsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TaipeiAttractionsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49845E52D2D711E00806A10 /* Build configuration list for PBXProject "TaipeiAttractionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49846162D2D712000806A10 /* Debug */,
+				D49846172D2D712000806A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49846132D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49846142D2D712000806A10 /* Debug */,
+				D49846152D2D712000806A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49846182D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49846192D2D712000806A10 /* Debug */,
+				D498461A2D2D712000806A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D498461B2D2D712000806A10 /* Build configuration list for PBXNativeTarget "TaipeiAttractionsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D498461C2D2D712000806A10 /* Debug */,
+				D498461D2D2D712000806A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D40CB36D2D2E2ABC007169FD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.2;
+			};
+		};
+		D4F2003C2D30328200339188 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = exactVersion;
+				version = 14.1.3;
+			};
+		};
+		D4F2003F2D3032D200339188 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D40CB36E2D2E2ABC007169FD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D40CB36D2D2E2ABC007169FD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D4F2003D2D30328200339188 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4F2003C2D30328200339188 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		D4F200402D3032D200339188 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4F2003F2D3032D200339188 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D49845E22D2D711E00806A10 /* Project object */;
+}
